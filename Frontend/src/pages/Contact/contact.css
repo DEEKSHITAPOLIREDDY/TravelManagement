@@ -1,0 +1,35 @@
+/* contact.css */
+
+.contact-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container h2 {
+    color: #333;
+  }
+  
+  .contact-container p {
+    color: black;
+  }
+  
+  .contact-container .contact-info {
+    margin-top: 20px;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+  
+  .contact-container img {
+    width: 600px; 
+    border-radius: 5px;
+    margin-top: 20px; 
+    height: 500px;
+  }
+  .para{
+    text-align: center;
+    justify-content: center;
+  }
+  

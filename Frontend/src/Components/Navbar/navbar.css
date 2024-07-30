@@ -1,0 +1,129 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar section */
+.navBarSection {
+  background-color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Logo */
+.logoDiv {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+/* Navigation bar */
+.navLists {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+  
+}
+
+.navItem {
+  margin: 0 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Book now button */
+.book-now-button {
+  background-color: #ff9800;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Close navbar */
+.closeNavbar {
+  display: none;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Toggle navbar */
+.toggleNavbar {
+  display: none;
+}
+
+/* Media query for responsive design */
+@media only screen and (max-width: 768px) {
+  .navLists {
+    display: none;
+  }
+
+  .toggleNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+
+  .closeNavbar {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+
+  .navLists.active {
+    display: flex;
+    flex-direction: column;
+    background-color: #444;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 998;
+  }
+
+  .navItem {
+    margin: 10px 0;
+    
+  }
+
+  .navLists.grid {
+    margin-right: 0;
+    margin-top: 0;
+  }
+}

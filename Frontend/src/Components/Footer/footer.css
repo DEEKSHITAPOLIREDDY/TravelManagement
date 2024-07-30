@@ -1,0 +1,69 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  .videoDiv {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .videoDiv video {
+    width: 100%;
+    height:450%;
+    object-fit: cover; /* Ensures the video fills the container */
+  }
+  
+  
+  .text {
+    text-align: center;
+  }
+  
+  .text small {
+    display: block;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .text h2 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .inputDiv {
+    margin-top: 20px;
+  }
+  
+  .inputDiv input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: none;
+  }
+  
+  .inputDiv button {
+    margin-left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .inputDiv button:hover {
+    background-color: #0056b3;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
+.msg{
+    text-align: center;
+    justify-content: center;
+}
